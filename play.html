@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>play</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="play.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="flex-column justify-center">
+          <div id="hud-display">
+            <div id="hud-item">
+              <p id="progress_tag"class="hud-prefix">Question</p>
+
+              <div id="progress_bar">
+                <div id="progress_div_full"></div>
+              </div>
+            </div>
+            <div id="hud-item">
+              <p class="hud-prefix">Score</p>
+              <h1 class="hud-main-text" id="score">0</h1>
+            </div>
+          </div>
+            <h2 id="question" >What is the answer to this Question?</h2>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choice 1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" >Choice 2</p>
+              </div>
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" >Choice 3</p>
+              </div>
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" >Choice 4</p>
+              </div>
+        </div>
+    </div>
+    <script src="play.js">
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+
+$(document).ready(function() {
+  $('.carousel').carousel({
+    interval: 2000
+  })
+});
+ 
+const aboutSection = document.getElementById('aboutSection');
+ function  aboutBtn()
+ {
+  scrollToElement(aboutSection);
+ }
+
+const Contactsection = document.getElementById('Contactsection');
+function ContactBtn()
+{
+  scrollToElement(Contactsection);
+}
+
+
+  // Scroll to the specified element
+  function scrollToElement(element) {
+    element.scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
+  function check()
+  {
+    
+    window.location.href="login.html";
+      
+  }
+  function readmore()
+  {
+    window.location.href="games.html";
+  }
+
+

@@ -1,0 +1,120 @@
+.contact
+{
+    padding: 20px 100px;
+    width:100%;
+    min-height: 50vh;
+    display:flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.contact img{
+    height:100%;
+    width:50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.contact .form
+{
+    width:50%;
+    margin:28px;
+}
+.contact .form h4{
+    font-size:2em;
+    font-family: sans-serif;
+    color:#fff;
+
+}
+.contact .form .inputBox
+{
+    margin: 20px 0;
+}
+.contact .form .inputBox p{
+    color:#fff;
+}
+.contact .form .inputBox input,
+.contact .form .inputBox textarea
+{
+    border:none;
+    outline: none;
+    padding: 10px;
+    width:100%;
+    color:#fff;
+    background: black;
+    min-height: 15px;
+    font-size:1.1em;
+}
+.contact .form .inputBox textarea
+{
+    height:150px;
+}
+.contact .form .inputBox input[type="submit"]
+{
+display: inline-block;
+padding: 10px 20px;
+margin: 15px 0;
+outline: none;
+background: transparent;
+border:1px solid  #1aeeef;
+text-decoration: none;
+font-weight: 700;
+width:250px;
+border-radius: 5px;
+color:#fff;
+letter-spacing: 1px;
+
+}   
+.contact .form .inputBox input[type="submit"]:hover{
+    background: #1aeeef;
+    border:none;
+    color:#050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+
+}
+.about
+{
+    margin-top: 3rem;
+    position: relative;
+    width: 100%;
+    min-height: 75vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .contentBox
+{
+    margin: 20px;
+    width: 50%;
+    
+}
+.about .contentBox h4{
+    font-size:2em;
+    font-family: sans-serif;
+    color:#fff;
+}
+.about .contentBox p{
+    max-width: 600px;
+    text-align: justify;
+    font-family: sans-serif;
+    color: #dbd9d9;
+}
+
+.read 
+{
+    color:#fff;
+    box-shadow:0 0 10px #008080;
+    border-color: #008080;
+    border-radius: 5px;
+}
+
+.buy 
+{
+    margin-top: 1.5rem;
+    margin-left: 10px;
+    margin-bottom: 1.5rem;
+    color:#fff;
+    box-shadow:0 0 10px #008080;
+    border-color: #008080;
+    border-radius: 5px;
+}
